@@ -26,7 +26,9 @@ RUN pip install --upgrade pip && \
     mim install mmcv-full
 
 # Copy and install additional Python requirements
-COPY requirements.txt /workspace/MVANet/                                                    RUN pip install -r requirements.txt
+COPY requirements.txt /workspace/MVANet/
+
+RUN pip install -r requirements.txt
 
 RUN pip install mmdet==2.24.1 && \
     pip install mmcv==1.6.0
