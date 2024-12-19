@@ -13,7 +13,7 @@ cd MVANet
 ```
 ./checkpoints/Model_80.pth 
 ./images/*.jpg
-./swin_base_patch4_window12_384_22kto1k.pth
+./data/backbone_ckpt/swin_*.pth
 ```
 
 3.  Build and run docker
