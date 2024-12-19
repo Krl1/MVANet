@@ -1,0 +1,5 @@
+*.prof
+outputs/*
+**/__pycache__/*
+**/*.pyc
+checkpoints/*
