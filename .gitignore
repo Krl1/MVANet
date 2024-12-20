@@ -4,5 +4,4 @@ outputs/*
 **/*.pyc
 checkpoints/*
 *.pth
-images/*
 data/*
